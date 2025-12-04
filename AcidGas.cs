@@ -6,6 +6,8 @@ public class AcidGas : MonoBehaviour
     public int damageAmount = 2; // Damage dealt per tick
     public Color gasEffectColor = new Color(0f, 1f, 0f, 0.3f); // Green overlay effect
 
+    public bool played = true;
+
     private bool playerInGas = false; // Track if the player is inside the gas
     private Coroutine damageCoroutine; // Coroutine reference
     private PlayerHealth playerHealth; // Reference to the player's health
@@ -76,3 +78,4 @@ public class AcidGas : MonoBehaviour
         damageCoroutine = null;
     }
 }
+

@@ -1,2 +1,3 @@
 # first-project
-My first GitHub project
+Hello! I'm learning GitHub and starting my journey today.
+
